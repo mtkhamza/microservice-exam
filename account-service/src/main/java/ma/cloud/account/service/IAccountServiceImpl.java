@@ -20,7 +20,6 @@ public class IAccountServiceImpl implements IAccountService {
     @Autowired
     ClientRestService clientRestService;
 
-
     @Override
     public Account addAccount(Account c) {
         return accountRepository.save(c);
